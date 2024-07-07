@@ -4,8 +4,7 @@
   "info": {
     "singularName": "chat-message",
     "pluralName": "chat-messages",
-    "displayName": "ChatMessage",
-    "description": ""
+    "displayName": "ChatMessage"
   },
   "options": {
     "draftAndPublish": false
@@ -14,6 +13,9 @@
   "attributes": {
     "message": {
       "type": "text"
+    },
+    "user": {
+      "type": "string"
     }
   }
 }

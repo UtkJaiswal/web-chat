@@ -368,13 +368,13 @@ export interface ApiChatMessageChatMessage extends Schema.CollectionType {
     singularName: 'chat-message';
     pluralName: 'chat-messages';
     displayName: 'ChatMessage';
-    description: '';
   };
   options: {
     draftAndPublish: false;
   };
   attributes: {
     message: Attribute.Text;
+    user: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
