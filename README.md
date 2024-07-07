@@ -1,61 +1,43 @@
-# 🚀 Getting started with Strapi
+# Real TIme Chat Application Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This project is a backend server for a real time chat application. It is built using Node.js and Strapi to provide real-time messaging functionality.
 
-### `develop`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
+## Installation
+
+To install the WhatsApp-like Chat Application Backend, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/yourusername/web-chat.git
+
+2. Change to the project directory:
+    bash
+    ```
+   cd web-chat
+   ```
+
+3. Install the required packages:
+    bash
+    ```
+   npm install
+   ```
+
+## Running the Server
+
+To start the development server, run:
+
+bash
 ```
 npm run develop
-# or
-yarn develop
 ```
 
-### `start`
+The server should now be running and ready to handle requests from the frontend application.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+## Features
 
-```
-npm run start
-# or
-yarn start
-```
+- Real-time messaging using WebSockets
+- User authentication
+- Message storage and retrieval
+- Messages of a user will only be shown to them and not to others
 
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
